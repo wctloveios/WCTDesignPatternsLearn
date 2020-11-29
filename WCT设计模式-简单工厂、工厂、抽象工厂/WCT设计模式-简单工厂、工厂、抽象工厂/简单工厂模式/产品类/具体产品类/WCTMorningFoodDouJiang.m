@@ -19,7 +19,7 @@
 }
 
 - (void)payForSomething {
-    NSLog(@"简单模式：早上买了：%@，消费：%ld元 ",self.name, (long)self.pay);
+    NSLog(@"简单工厂模式：早上买了：%@，消费：%ld元 ",self.name, (long)self.pay);
 }
 
 @end

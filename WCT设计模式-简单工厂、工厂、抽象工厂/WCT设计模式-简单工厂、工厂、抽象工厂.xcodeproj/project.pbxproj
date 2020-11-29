@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0415715E2573918A0035DC98 /* 工厂模式类图.png in Resources */ = {isa = PBXBuildFile; fileRef = 0415715C2573918A0035DC98 /* 工厂模式类图.png */; };
+		0415715F2573918A0035DC98 /* 工厂模式再扩展一种产品.png in Resources */ = {isa = PBXBuildFile; fileRef = 0415715D2573918A0035DC98 /* 工厂模式再扩展一种产品.png */; };
+		0415716B257397480035DC98 /* WCTNoonFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415716A257397480035DC98 /* WCTNoonFood.m */; };
+		0415717A257398070035DC98 /* WCTNoonFoodFish.m in Sources */ = {isa = PBXBuildFile; fileRef = 04157179257398070035DC98 /* WCTNoonFoodFish.m */; };
+		04157180257398240035DC98 /* WCTNoonFoodShrimp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415717F257398240035DC98 /* WCTNoonFoodShrimp.m */; };
+		04157186257398870035DC98 /* WCTNoonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04157185257398870035DC98 /* WCTNoonFactory.m */; };
+		0415718C257399520035DC98 /* WCTNoonFoodFishCook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415718B257399520035DC98 /* WCTNoonFoodFishCook.m */; };
+		041571922573996E0035DC98 /* WCTNoonFoodShrimpCook.m in Sources */ = {isa = PBXBuildFile; fileRef = 041571912573996E0035DC98 /* WCTNoonFoodShrimpCook.m */; };
 		04CF30B12573853E00888CEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF30B02573853E00888CEC /* AppDelegate.m */; };
 		04CF30B42573853E00888CEC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF30B32573853E00888CEC /* SceneDelegate.m */; };
 		04CF30B72573853E00888CEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF30B62573853E00888CEC /* ViewController.m */; };
@@ -14,10 +22,10 @@
 		04CF30BC2573854000888CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30BB2573854000888CEC /* Assets.xcassets */; };
 		04CF30BF2573854000888CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30BD2573854000888CEC /* LaunchScreen.storyboard */; };
 		04CF30C22573854000888CEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF30C12573854000888CEC /* main.m */; };
-		04CF30EB257385C000888CEC /* README1.md in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30EA257385C000888CEC /* README1.md */; };
-		04CF30F0257385F500888CEC /* README2.md in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30EF257385F500888CEC /* README2.md */; };
+		04CF30EB257385C000888CEC /* 简单工厂模式read.md in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30EA257385C000888CEC /* 简单工厂模式read.md */; };
+		04CF30F0257385F500888CEC /* 工厂模式read.md in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30EF257385F500888CEC /* 工厂模式read.md */; };
 		04CF30F5257385FE00888CEC /* README3.md in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30F4257385FE00888CEC /* README3.md */; };
-		04CF30FA2573866700888CEC /* 简单工厂类图.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30F92573866700888CEC /* 简单工厂类图.png */; };
+		04CF30FA2573866700888CEC /* 简单工厂模式类图.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30F92573866700888CEC /* 简单工厂模式类图.png */; };
 		04CF3100257388D700888CEC /* WCTMorningFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF30FF257388D700888CEC /* WCTMorningFactory.m */; };
 		04CF3106257388FD00888CEC /* WCTMorningFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF3105257388FD00888CEC /* WCTMorningFood.m */; };
 		04CF310C257389EB00888CEC /* WCTMorningFoodBaoZi.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF310B257389EB00888CEC /* WCTMorningFoodBaoZi.m */; };
@@ -42,6 +50,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0415715C2573918A0035DC98 /* 工厂模式类图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "工厂模式类图.png"; sourceTree = "<group>"; };
+		0415715D2573918A0035DC98 /* 工厂模式再扩展一种产品.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "工厂模式再扩展一种产品.png"; sourceTree = "<group>"; };
+		04157169257397480035DC98 /* WCTNoonFood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTNoonFood.h; sourceTree = "<group>"; };
+		0415716A257397480035DC98 /* WCTNoonFood.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTNoonFood.m; sourceTree = "<group>"; };
+		04157178257398070035DC98 /* WCTNoonFoodFish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTNoonFoodFish.h; sourceTree = "<group>"; };
+		04157179257398070035DC98 /* WCTNoonFoodFish.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTNoonFoodFish.m; sourceTree = "<group>"; };
+		0415717E257398240035DC98 /* WCTNoonFoodShrimp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTNoonFoodShrimp.h; sourceTree = "<group>"; };
+		0415717F257398240035DC98 /* WCTNoonFoodShrimp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTNoonFoodShrimp.m; sourceTree = "<group>"; };
+		04157184257398870035DC98 /* WCTNoonFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTNoonFactory.h; sourceTree = "<group>"; };
+		04157185257398870035DC98 /* WCTNoonFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTNoonFactory.m; sourceTree = "<group>"; };
+		0415718A257399520035DC98 /* WCTNoonFoodFishCook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTNoonFoodFishCook.h; sourceTree = "<group>"; };
+		0415718B257399520035DC98 /* WCTNoonFoodFishCook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTNoonFoodFishCook.m; sourceTree = "<group>"; };
+		041571902573996E0035DC98 /* WCTNoonFoodShrimpCook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTNoonFoodShrimpCook.h; sourceTree = "<group>"; };
+		041571912573996E0035DC98 /* WCTNoonFoodShrimpCook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTNoonFoodShrimpCook.m; sourceTree = "<group>"; };
 		04CF30AC2573853E00888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WCT设计模式-简单工厂、工厂、抽象工厂.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CF30AF2573853E00888CEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04CF30B02573853E00888CEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,10 +78,10 @@
 		04CF30C12573854000888CEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04CF30C72573854100888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WCT设计模式-简单工厂、工厂、抽象工厂Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CF30D22573854100888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WCT设计模式-简单工厂、工厂、抽象工厂UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04CF30EA257385C000888CEC /* README1.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README1.md; sourceTree = "<group>"; };
-		04CF30EF257385F500888CEC /* README2.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README2.md; sourceTree = "<group>"; };
+		04CF30EA257385C000888CEC /* 简单工厂模式read.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "简单工厂模式read.md"; sourceTree = "<group>"; };
+		04CF30EF257385F500888CEC /* 工厂模式read.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "工厂模式read.md"; sourceTree = "<group>"; };
 		04CF30F4257385FE00888CEC /* README3.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README3.md; sourceTree = "<group>"; };
-		04CF30F92573866700888CEC /* 简单工厂类图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "简单工厂类图.png"; sourceTree = "<group>"; };
+		04CF30F92573866700888CEC /* 简单工厂模式类图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "简单工厂模式类图.png"; sourceTree = "<group>"; };
 		04CF30FE257388D700888CEC /* WCTMorningFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTMorningFactory.h; sourceTree = "<group>"; };
 		04CF30FF257388D700888CEC /* WCTMorningFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTMorningFactory.m; sourceTree = "<group>"; };
 		04CF3104257388FD00888CEC /* WCTMorningFood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTMorningFood.h; sourceTree = "<group>"; };
@@ -95,6 +117,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04157163257393760035DC98 /* 工厂类 */ = {
+			isa = PBXGroup;
+			children = (
+				04157166257393910035DC98 /* 具体产品类 */,
+				04157165257393880035DC98 /* 抽象工厂类 */,
+			);
+			path = "工厂类";
+			sourceTree = "<group>";
+		};
+		04157164257393800035DC98 /* 产品类 */ = {
+			isa = PBXGroup;
+			children = (
+				04157168257393AB0035DC98 /* 具体产品类 */,
+				04157167257393990035DC98 /* 抽象产品类 */,
+			);
+			path = "产品类";
+			sourceTree = "<group>";
+		};
+		04157165257393880035DC98 /* 抽象工厂类 */ = {
+			isa = PBXGroup;
+			children = (
+				04157184257398870035DC98 /* WCTNoonFactory.h */,
+				04157185257398870035DC98 /* WCTNoonFactory.m */,
+			);
+			path = "抽象工厂类";
+			sourceTree = "<group>";
+		};
+		04157166257393910035DC98 /* 具体产品类 */ = {
+			isa = PBXGroup;
+			children = (
+				041571902573996E0035DC98 /* WCTNoonFoodShrimpCook.h */,
+				041571912573996E0035DC98 /* WCTNoonFoodShrimpCook.m */,
+				0415718A257399520035DC98 /* WCTNoonFoodFishCook.h */,
+				0415718B257399520035DC98 /* WCTNoonFoodFishCook.m */,
+			);
+			path = "具体产品类";
+			sourceTree = "<group>";
+		};
+		04157167257393990035DC98 /* 抽象产品类 */ = {
+			isa = PBXGroup;
+			children = (
+				04157169257397480035DC98 /* WCTNoonFood.h */,
+				0415716A257397480035DC98 /* WCTNoonFood.m */,
+			);
+			path = "抽象产品类";
+			sourceTree = "<group>";
+		};
+		04157168257393AB0035DC98 /* 具体产品类 */ = {
+			isa = PBXGroup;
+			children = (
+				04157178257398070035DC98 /* WCTNoonFoodFish.h */,
+				04157179257398070035DC98 /* WCTNoonFoodFish.m */,
+				0415717E257398240035DC98 /* WCTNoonFoodShrimp.h */,
+				0415717F257398240035DC98 /* WCTNoonFoodShrimp.m */,
+			);
+			path = "具体产品类";
+			sourceTree = "<group>";
+		};
 		04CF30A32573853E00888CEC = {
 			isa = PBXGroup;
 			children = (
@@ -137,8 +217,8 @@
 		04CF30E72573855D00888CEC /* 简单工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
-				04CF30EA257385C000888CEC /* README1.md */,
-				04CF30F92573866700888CEC /* 简单工厂类图.png */,
+				04CF30EA257385C000888CEC /* 简单工厂模式read.md */,
+				04CF30F92573866700888CEC /* 简单工厂模式类图.png */,
 				04CF311625738CA300888CEC /* 工厂类 */,
 				04CF311725738CAC00888CEC /* 产品类 */,
 			);
@@ -148,7 +228,11 @@
 		04CF30E82573856D00888CEC /* 工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
-				04CF30EF257385F500888CEC /* README2.md */,
+				04CF30EF257385F500888CEC /* 工厂模式read.md */,
+				0415715C2573918A0035DC98 /* 工厂模式类图.png */,
+				0415715D2573918A0035DC98 /* 工厂模式再扩展一种产品.png */,
+				04157164257393800035DC98 /* 产品类 */,
+				04157163257393760035DC98 /* 工厂类 */,
 			);
 			path = "工厂模式";
 			sourceTree = "<group>";
@@ -302,12 +386,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CF30F5257385FE00888CEC /* README3.md in Resources */,
-				04CF30EB257385C000888CEC /* README1.md in Resources */,
+				04CF30EB257385C000888CEC /* 简单工厂模式read.md in Resources */,
+				0415715E2573918A0035DC98 /* 工厂模式类图.png in Resources */,
 				04CF30BF2573854000888CEC /* LaunchScreen.storyboard in Resources */,
 				04CF30BC2573854000888CEC /* Assets.xcassets in Resources */,
 				04CF30BA2573853E00888CEC /* Main.storyboard in Resources */,
-				04CF30F0257385F500888CEC /* README2.md in Resources */,
-				04CF30FA2573866700888CEC /* 简单工厂类图.png in Resources */,
+				0415715F2573918A0035DC98 /* 工厂模式再扩展一种产品.png in Resources */,
+				04CF30F0257385F500888CEC /* 工厂模式read.md in Resources */,
+				04CF30FA2573866700888CEC /* 简单工厂模式类图.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,14 +418,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0415716B257397480035DC98 /* WCTNoonFood.m in Sources */,
 				04CF30B72573853E00888CEC /* ViewController.m in Sources */,
 				04CF310C257389EB00888CEC /* WCTMorningFoodBaoZi.m in Sources */,
+				0415718C257399520035DC98 /* WCTNoonFoodFishCook.m in Sources */,
 				04CF30B12573853E00888CEC /* AppDelegate.m in Sources */,
+				0415717A257398070035DC98 /* WCTNoonFoodFish.m in Sources */,
 				04CF30C22573854000888CEC /* main.m in Sources */,
 				04CF311225738A0B00888CEC /* WCTMorningFoodDouJiang.m in Sources */,
+				04157186257398870035DC98 /* WCTNoonFactory.m in Sources */,
 				04CF3106257388FD00888CEC /* WCTMorningFood.m in Sources */,
+				04157180257398240035DC98 /* WCTNoonFoodShrimp.m in Sources */,
 				04CF3100257388D700888CEC /* WCTMorningFactory.m in Sources */,
 				04CF30B42573853E00888CEC /* SceneDelegate.m in Sources */,
+				041571922573996E0035DC98 /* WCTNoonFoodShrimpCook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
