@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CF30B12573853E00888CEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF30B02573853E00888CEC /* AppDelegate.m */; };
+		04CF30B42573853E00888CEC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF30B32573853E00888CEC /* SceneDelegate.m */; };
+		04CF30B72573853E00888CEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF30B62573853E00888CEC /* ViewController.m */; };
+		04CF30BA2573853E00888CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30B82573853E00888CEC /* Main.storyboard */; };
+		04CF30BC2573854000888CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30BB2573854000888CEC /* Assets.xcassets */; };
+		04CF30BF2573854000888CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30BD2573854000888CEC /* LaunchScreen.storyboard */; };
+		04CF30C22573854000888CEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF30C12573854000888CEC /* main.m */; };
+		04CF30EB257385C000888CEC /* README1.md in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30EA257385C000888CEC /* README1.md */; };
+		04CF30F0257385F500888CEC /* README2.md in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30EF257385F500888CEC /* README2.md */; };
+		04CF30F5257385FE00888CEC /* README3.md in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30F4257385FE00888CEC /* README3.md */; };
+		04CF30FA2573866700888CEC /* 简单工厂类图.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CF30F92573866700888CEC /* 简单工厂类图.png */; };
+		04CF3100257388D700888CEC /* WCTMorningFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF30FF257388D700888CEC /* WCTMorningFactory.m */; };
+		04CF3106257388FD00888CEC /* WCTMorningFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF3105257388FD00888CEC /* WCTMorningFood.m */; };
+		04CF310C257389EB00888CEC /* WCTMorningFoodBaoZi.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF310B257389EB00888CEC /* WCTMorningFoodBaoZi.m */; };
+		04CF311225738A0B00888CEC /* WCTMorningFoodDouJiang.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF311125738A0B00888CEC /* WCTMorningFoodDouJiang.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CF30C82573854100888CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CF30A42573853E00888CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CF30AB2573853E00888CEC;
+			remoteInfo = "WCT设计模式-简单工厂、工厂、抽象工厂";
+		};
+		04CF30D32573854100888CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CF30A42573853E00888CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CF30AB2573853E00888CEC;
+			remoteInfo = "WCT设计模式-简单工厂、工厂、抽象工厂";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CF30AC2573853E00888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WCT设计模式-简单工厂、工厂、抽象工厂.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CF30AF2573853E00888CEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04CF30B02573853E00888CEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04CF30B22573853E00888CEC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		04CF30B32573853E00888CEC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		04CF30B52573853E00888CEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04CF30B62573853E00888CEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04CF30B92573853E00888CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CF30BB2573854000888CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CF30BE2573854000888CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CF30C02573854000888CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CF30C12573854000888CEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04CF30C72573854100888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WCT设计模式-简单工厂、工厂、抽象工厂Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CF30D22573854100888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WCT设计模式-简单工厂、工厂、抽象工厂UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CF30EA257385C000888CEC /* README1.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README1.md; sourceTree = "<group>"; };
+		04CF30EF257385F500888CEC /* README2.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README2.md; sourceTree = "<group>"; };
+		04CF30F4257385FE00888CEC /* README3.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README3.md; sourceTree = "<group>"; };
+		04CF30F92573866700888CEC /* 简单工厂类图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "简单工厂类图.png"; sourceTree = "<group>"; };
+		04CF30FE257388D700888CEC /* WCTMorningFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTMorningFactory.h; sourceTree = "<group>"; };
+		04CF30FF257388D700888CEC /* WCTMorningFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTMorningFactory.m; sourceTree = "<group>"; };
+		04CF3104257388FD00888CEC /* WCTMorningFood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTMorningFood.h; sourceTree = "<group>"; };
+		04CF3105257388FD00888CEC /* WCTMorningFood.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTMorningFood.m; sourceTree = "<group>"; };
+		04CF310A257389EB00888CEC /* WCTMorningFoodBaoZi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTMorningFoodBaoZi.h; sourceTree = "<group>"; };
+		04CF310B257389EB00888CEC /* WCTMorningFoodBaoZi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTMorningFoodBaoZi.m; sourceTree = "<group>"; };
+		04CF311025738A0B00888CEC /* WCTMorningFoodDouJiang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTMorningFoodDouJiang.h; sourceTree = "<group>"; };
+		04CF311125738A0B00888CEC /* WCTMorningFoodDouJiang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTMorningFoodDouJiang.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CF30A92573853E00888CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CF30C42573854100888CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CF30CF2573854100888CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CF30A32573853E00888CEC = {
+			isa = PBXGroup;
+			children = (
+				04CF30AE2573853E00888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂 */,
+				04CF30AD2573853E00888CEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CF30AD2573853E00888CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CF30AC2573853E00888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂.app */,
+				04CF30C72573854100888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂Tests.xctest */,
+				04CF30D22573854100888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CF30AE2573853E00888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				04CF30AF2573853E00888CEC /* AppDelegate.h */,
+				04CF30B02573853E00888CEC /* AppDelegate.m */,
+				04CF30B22573853E00888CEC /* SceneDelegate.h */,
+				04CF30B32573853E00888CEC /* SceneDelegate.m */,
+				04CF30B52573853E00888CEC /* ViewController.h */,
+				04CF30B62573853E00888CEC /* ViewController.m */,
+				04CF30E72573855D00888CEC /* 简单工厂模式 */,
+				04CF30E82573856D00888CEC /* 工厂模式 */,
+				04CF30E92573857800888CEC /* 抽象工厂模式 */,
+				04CF30B82573853E00888CEC /* Main.storyboard */,
+				04CF30BB2573854000888CEC /* Assets.xcassets */,
+				04CF30BD2573854000888CEC /* LaunchScreen.storyboard */,
+				04CF30C02573854000888CEC /* Info.plist */,
+				04CF30C12573854000888CEC /* main.m */,
+			);
+			path = "WCT设计模式-简单工厂、工厂、抽象工厂";
+			sourceTree = "<group>";
+		};
+		04CF30E72573855D00888CEC /* 简单工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				04CF30EA257385C000888CEC /* README1.md */,
+				04CF30F92573866700888CEC /* 简单工厂类图.png */,
+				04CF311625738CA300888CEC /* 工厂类 */,
+				04CF311725738CAC00888CEC /* 产品类 */,
+			);
+			path = "简单工厂模式";
+			sourceTree = "<group>";
+		};
+		04CF30E82573856D00888CEC /* 工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				04CF30EF257385F500888CEC /* README2.md */,
+			);
+			path = "工厂模式";
+			sourceTree = "<group>";
+		};
+		04CF30E92573857800888CEC /* 抽象工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				04CF30F4257385FE00888CEC /* README3.md */,
+			);
+			path = "抽象工厂模式";
+			sourceTree = "<group>";
+		};
+		04CF311625738CA300888CEC /* 工厂类 */ = {
+			isa = PBXGroup;
+			children = (
+				04CF30FE257388D700888CEC /* WCTMorningFactory.h */,
+				04CF30FF257388D700888CEC /* WCTMorningFactory.m */,
+			);
+			path = "工厂类";
+			sourceTree = "<group>";
+		};
+		04CF311725738CAC00888CEC /* 产品类 */ = {
+			isa = PBXGroup;
+			children = (
+				04CF311825738CC000888CEC /* 抽象产品类 */,
+				04CF311925738CCD00888CEC /* 具体产品类 */,
+			);
+			path = "产品类";
+			sourceTree = "<group>";
+		};
+		04CF311825738CC000888CEC /* 抽象产品类 */ = {
+			isa = PBXGroup;
+			children = (
+				04CF3104257388FD00888CEC /* WCTMorningFood.h */,
+				04CF3105257388FD00888CEC /* WCTMorningFood.m */,
+			);
+			path = "抽象产品类";
+			sourceTree = "<group>";
+		};
+		04CF311925738CCD00888CEC /* 具体产品类 */ = {
+			isa = PBXGroup;
+			children = (
+				04CF310A257389EB00888CEC /* WCTMorningFoodBaoZi.h */,
+				04CF310B257389EB00888CEC /* WCTMorningFoodBaoZi.m */,
+				04CF311025738A0B00888CEC /* WCTMorningFoodDouJiang.h */,
+				04CF311125738A0B00888CEC /* WCTMorningFoodDouJiang.m */,
+			);
+			path = "具体产品类";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CF30AB2573853E00888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CF30DB2573854100888CEC /* Build configuration list for PBXNativeTarget "WCT设计模式-简单工厂、工厂、抽象工厂" */;
+			buildPhases = (
+				04CF30A82573853E00888CEC /* Sources */,
+				04CF30A92573853E00888CEC /* Frameworks */,
+				04CF30AA2573853E00888CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WCT设计模式-简单工厂、工厂、抽象工厂";
+			productName = "WCT设计模式-简单工厂、工厂、抽象工厂";
+			productReference = 04CF30AC2573853E00888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CF30C62573854100888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CF30DE2573854100888CEC /* Build configuration list for PBXNativeTarget "WCT设计模式-简单工厂、工厂、抽象工厂Tests" */;
+			buildPhases = (
+				04CF30C32573854100888CEC /* Sources */,
+				04CF30C42573854100888CEC /* Frameworks */,
+				04CF30C52573854100888CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CF30C92573854100888CEC /* PBXTargetDependency */,
+			);
+			name = "WCT设计模式-简单工厂、工厂、抽象工厂Tests";
+			productName = "WCT设计模式-简单工厂、工厂、抽象工厂Tests";
+			productReference = 04CF30C72573854100888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04CF30D12573854100888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CF30E12573854100888CEC /* Build configuration list for PBXNativeTarget "WCT设计模式-简单工厂、工厂、抽象工厂UITests" */;
+			buildPhases = (
+				04CF30CE2573854100888CEC /* Sources */,
+				04CF30CF2573854100888CEC /* Frameworks */,
+				04CF30D02573854100888CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CF30D42573854100888CEC /* PBXTargetDependency */,
+			);
+			name = "WCT设计模式-简单工厂、工厂、抽象工厂UITests";
+			productName = "WCT设计模式-简单工厂、工厂、抽象工厂UITests";
+			productReference = 04CF30D22573854100888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CF30A42573853E00888CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					04CF30AB2573853E00888CEC = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					04CF30C62573854100888CEC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 04CF30AB2573853E00888CEC;
+					};
+					04CF30D12573854100888CEC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 04CF30AB2573853E00888CEC;
+					};
+				};
+			};
+			buildConfigurationList = 04CF30A72573853E00888CEC /* Build configuration list for PBXProject "WCT设计模式-简单工厂、工厂、抽象工厂" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CF30A32573853E00888CEC;
+			productRefGroup = 04CF30AD2573853E00888CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CF30AB2573853E00888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂 */,
+				04CF30C62573854100888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂Tests */,
+				04CF30D12573854100888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CF30AA2573853E00888CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CF30F5257385FE00888CEC /* README3.md in Resources */,
+				04CF30EB257385C000888CEC /* README1.md in Resources */,
+				04CF30BF2573854000888CEC /* LaunchScreen.storyboard in Resources */,
+				04CF30BC2573854000888CEC /* Assets.xcassets in Resources */,
+				04CF30BA2573853E00888CEC /* Main.storyboard in Resources */,
+				04CF30F0257385F500888CEC /* README2.md in Resources */,
+				04CF30FA2573866700888CEC /* 简单工厂类图.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CF30C52573854100888CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CF30D02573854100888CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CF30A82573853E00888CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CF30B72573853E00888CEC /* ViewController.m in Sources */,
+				04CF310C257389EB00888CEC /* WCTMorningFoodBaoZi.m in Sources */,
+				04CF30B12573853E00888CEC /* AppDelegate.m in Sources */,
+				04CF30C22573854000888CEC /* main.m in Sources */,
+				04CF311225738A0B00888CEC /* WCTMorningFoodDouJiang.m in Sources */,
+				04CF3106257388FD00888CEC /* WCTMorningFood.m in Sources */,
+				04CF3100257388D700888CEC /* WCTMorningFactory.m in Sources */,
+				04CF30B42573853E00888CEC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CF30C32573854100888CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CF30CE2573854100888CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CF30C92573854100888CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CF30AB2573853E00888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂 */;
+			targetProxy = 04CF30C82573854100888CEC /* PBXContainerItemProxy */;
+		};
+		04CF30D42573854100888CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CF30AB2573853E00888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂 */;
+			targetProxy = 04CF30D32573854100888CEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04CF30B82573853E00888CEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CF30B92573853E00888CEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CF30BD2573854000888CEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CF30BE2573854000888CEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CF30D92573854100888CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04CF30DA2573854100888CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CF30DC2573854100888CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVTLVSMJ6Q;
+				INFOPLIST_FILE = "WCT设计模式-简单工厂、工厂、抽象工厂/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wctloveios-163.com.WCT-----------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04CF30DD2573854100888CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVTLVSMJ6Q;
+				INFOPLIST_FILE = "WCT设计模式-简单工厂、工厂、抽象工厂/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wctloveios-163.com.WCT-----------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04CF30DF2573854100888CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVTLVSMJ6Q;
+				INFOPLIST_FILE = "WCT设计模式-简单工厂、工厂、抽象工厂Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wctloveios-163.com.WCT-----------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCT设计模式-简单工厂、工厂、抽象工厂.app/WCT设计模式-简单工厂、工厂、抽象工厂";
+			};
+			name = Debug;
+		};
+		04CF30E02573854100888CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVTLVSMJ6Q;
+				INFOPLIST_FILE = "WCT设计模式-简单工厂、工厂、抽象工厂Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wctloveios-163.com.WCT-----------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCT设计模式-简单工厂、工厂、抽象工厂.app/WCT设计模式-简单工厂、工厂、抽象工厂";
+			};
+			name = Release;
+		};
+		04CF30E22573854100888CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVTLVSMJ6Q;
+				INFOPLIST_FILE = "WCT设计模式-简单工厂、工厂、抽象工厂UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wctloveios-163.com.WCT-----------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WCT设计模式-简单工厂、工厂、抽象工厂";
+			};
+			name = Debug;
+		};
+		04CF30E32573854100888CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVTLVSMJ6Q;
+				INFOPLIST_FILE = "WCT设计模式-简单工厂、工厂、抽象工厂UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wctloveios-163.com.WCT-----------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WCT设计模式-简单工厂、工厂、抽象工厂";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CF30A72573853E00888CEC /* Build configuration list for PBXProject "WCT设计模式-简单工厂、工厂、抽象工厂" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CF30D92573854100888CEC /* Debug */,
+				04CF30DA2573854100888CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CF30DB2573854100888CEC /* Build configuration list for PBXNativeTarget "WCT设计模式-简单工厂、工厂、抽象工厂" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CF30DC2573854100888CEC /* Debug */,
+				04CF30DD2573854100888CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CF30DE2573854100888CEC /* Build configuration list for PBXNativeTarget "WCT设计模式-简单工厂、工厂、抽象工厂Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CF30DF2573854100888CEC /* Debug */,
+				04CF30E02573854100888CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CF30E12573854100888CEC /* Build configuration list for PBXNativeTarget "WCT设计模式-简单工厂、工厂、抽象工厂UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CF30E22573854100888CEC /* Debug */,
+				04CF30E32573854100888CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CF30A42573853E00888CEC /* Project object */;
+}
