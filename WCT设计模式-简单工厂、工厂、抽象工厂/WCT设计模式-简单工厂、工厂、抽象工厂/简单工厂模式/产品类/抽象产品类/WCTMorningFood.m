@@ -10,7 +10,7 @@
 @implementation WCTMorningFood
 
 - (void)payForSomething {
-    NSLog(@"简单工厂模式：早上买了xxx，消费：xxx元 ");
+    return;
 }
 
 @end

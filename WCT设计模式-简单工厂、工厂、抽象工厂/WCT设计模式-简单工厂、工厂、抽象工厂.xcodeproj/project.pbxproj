@@ -15,6 +15,16 @@
 		04157186257398870035DC98 /* WCTNoonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04157185257398870035DC98 /* WCTNoonFactory.m */; };
 		0415718C257399520035DC98 /* WCTNoonFoodFishCook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415718B257399520035DC98 /* WCTNoonFoodFishCook.m */; };
 		041571922573996E0035DC98 /* WCTNoonFoodShrimpCook.m in Sources */ = {isa = PBXBuildFile; fileRef = 041571912573996E0035DC98 /* WCTNoonFoodShrimpCook.m */; };
+		04929FC92573A37C001EB606 /* 抽象工厂.png in Resources */ = {isa = PBXBuildFile; fileRef = 04929FC82573A37C001EB606 /* 抽象工厂.png */; };
+		04929FE72573A45A001EB606 /* WCTDinnerFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 04929FE12573A459001EB606 /* WCTDinnerFood.m */; };
+		04929FED2573A492001EB606 /* WCTDinnerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04929FEC2573A492001EB606 /* WCTDinnerFactory.m */; };
+		04929FFF2573A5AC001EB606 /* WCTDinnerFoodPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 04929FFE2573A5AC001EB606 /* WCTDinnerFoodPizza.m */; };
+		0492A0052573A5BB001EB606 /* WCTDinnerFoodHotpot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492A0042573A5BB001EB606 /* WCTDinnerFoodHotpot.m */; };
+		0492A0172573A6E2001EB606 /* WCTDinnerFoodPizzaCook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492A0162573A6E2001EB606 /* WCTDinnerFoodPizzaCook.m */; };
+		0492A0202573A6F3001EB606 /* WCTDinnerFoodHotpotCook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492A01F2573A6F3001EB606 /* WCTDinnerFoodHotpotCook.m */; };
+		0492A0442573AEC2001EB606 /* WCTGuest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492A0432573AEC2001EB606 /* WCTGuest.m */; };
+		0492A04A2573AF09001EB606 /* WCTGuestWCT.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492A0492573AF09001EB606 /* WCTGuestWCT.m */; };
+		0492A0502573AF17001EB606 /* WCTGuestLJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492A04F2573AF17001EB606 /* WCTGuestLJ.m */; };
 		04CF30B12573853E00888CEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF30B02573853E00888CEC /* AppDelegate.m */; };
 		04CF30B42573853E00888CEC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF30B32573853E00888CEC /* SceneDelegate.m */; };
 		04CF30B72573853E00888CEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF30B62573853E00888CEC /* ViewController.m */; };
@@ -64,6 +74,25 @@
 		0415718B257399520035DC98 /* WCTNoonFoodFishCook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTNoonFoodFishCook.m; sourceTree = "<group>"; };
 		041571902573996E0035DC98 /* WCTNoonFoodShrimpCook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTNoonFoodShrimpCook.h; sourceTree = "<group>"; };
 		041571912573996E0035DC98 /* WCTNoonFoodShrimpCook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTNoonFoodShrimpCook.m; sourceTree = "<group>"; };
+		04929FC82573A37C001EB606 /* 抽象工厂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抽象工厂.png"; sourceTree = "<group>"; };
+		04929FE02573A459001EB606 /* WCTDinnerFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCTDinnerFood.h; sourceTree = "<group>"; };
+		04929FE12573A459001EB606 /* WCTDinnerFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCTDinnerFood.m; sourceTree = "<group>"; };
+		04929FEB2573A492001EB606 /* WCTDinnerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTDinnerFactory.h; sourceTree = "<group>"; };
+		04929FEC2573A492001EB606 /* WCTDinnerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTDinnerFactory.m; sourceTree = "<group>"; };
+		04929FFD2573A5AC001EB606 /* WCTDinnerFoodPizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTDinnerFoodPizza.h; sourceTree = "<group>"; };
+		04929FFE2573A5AC001EB606 /* WCTDinnerFoodPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTDinnerFoodPizza.m; sourceTree = "<group>"; };
+		0492A0032573A5BB001EB606 /* WCTDinnerFoodHotpot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTDinnerFoodHotpot.h; sourceTree = "<group>"; };
+		0492A0042573A5BB001EB606 /* WCTDinnerFoodHotpot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTDinnerFoodHotpot.m; sourceTree = "<group>"; };
+		0492A0152573A6E2001EB606 /* WCTDinnerFoodPizzaCook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTDinnerFoodPizzaCook.h; sourceTree = "<group>"; };
+		0492A0162573A6E2001EB606 /* WCTDinnerFoodPizzaCook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTDinnerFoodPizzaCook.m; sourceTree = "<group>"; };
+		0492A01E2573A6F3001EB606 /* WCTDinnerFoodHotpotCook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTDinnerFoodHotpotCook.h; sourceTree = "<group>"; };
+		0492A01F2573A6F3001EB606 /* WCTDinnerFoodHotpotCook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTDinnerFoodHotpotCook.m; sourceTree = "<group>"; };
+		0492A0422573AEC2001EB606 /* WCTGuest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTGuest.h; sourceTree = "<group>"; };
+		0492A0432573AEC2001EB606 /* WCTGuest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTGuest.m; sourceTree = "<group>"; };
+		0492A0482573AF09001EB606 /* WCTGuestWCT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTGuestWCT.h; sourceTree = "<group>"; };
+		0492A0492573AF09001EB606 /* WCTGuestWCT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTGuestWCT.m; sourceTree = "<group>"; };
+		0492A04E2573AF17001EB606 /* WCTGuestLJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTGuestLJ.h; sourceTree = "<group>"; };
+		0492A04F2573AF17001EB606 /* WCTGuestLJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTGuestLJ.m; sourceTree = "<group>"; };
 		04CF30AC2573853E00888CEC /* WCT设计模式-简单工厂、工厂、抽象工厂.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WCT设计模式-简单工厂、工厂、抽象工厂.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CF30AF2573853E00888CEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04CF30B02573853E00888CEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,7 +149,7 @@
 		04157163257393760035DC98 /* 工厂类 */ = {
 			isa = PBXGroup;
 			children = (
-				04157166257393910035DC98 /* 具体产品类 */,
+				04157166257393910035DC98 /* 具体工厂类 */,
 				04157165257393880035DC98 /* 抽象工厂类 */,
 			);
 			path = "工厂类";
@@ -144,7 +173,7 @@
 			path = "抽象工厂类";
 			sourceTree = "<group>";
 		};
-		04157166257393910035DC98 /* 具体产品类 */ = {
+		04157166257393910035DC98 /* 具体工厂类 */ = {
 			isa = PBXGroup;
 			children = (
 				041571902573996E0035DC98 /* WCTNoonFoodShrimpCook.h */,
@@ -152,7 +181,7 @@
 				0415718A257399520035DC98 /* WCTNoonFoodFishCook.h */,
 				0415718B257399520035DC98 /* WCTNoonFoodFishCook.m */,
 			);
-			path = "具体产品类";
+			path = "具体工厂类";
 			sourceTree = "<group>";
 		};
 		04157167257393990035DC98 /* 抽象产品类 */ = {
@@ -173,6 +202,93 @@
 				0415717F257398240035DC98 /* WCTNoonFoodShrimp.m */,
 			);
 			path = "具体产品类";
+			sourceTree = "<group>";
+		};
+		04929FD02573A459001EB606 /* 工厂类 */ = {
+			isa = PBXGroup;
+			children = (
+				04929FD62573A459001EB606 /* 抽象工厂类 */,
+				04929FD12573A459001EB606 /* 具体工厂类 */,
+			);
+			path = "工厂类";
+			sourceTree = "<group>";
+		};
+		04929FD12573A459001EB606 /* 具体工厂类 */ = {
+			isa = PBXGroup;
+			children = (
+				0492A0152573A6E2001EB606 /* WCTDinnerFoodPizzaCook.h */,
+				0492A0162573A6E2001EB606 /* WCTDinnerFoodPizzaCook.m */,
+				0492A01E2573A6F3001EB606 /* WCTDinnerFoodHotpotCook.h */,
+				0492A01F2573A6F3001EB606 /* WCTDinnerFoodHotpotCook.m */,
+			);
+			path = "具体工厂类";
+			sourceTree = "<group>";
+		};
+		04929FD62573A459001EB606 /* 抽象工厂类 */ = {
+			isa = PBXGroup;
+			children = (
+				04929FEB2573A492001EB606 /* WCTDinnerFactory.h */,
+				04929FEC2573A492001EB606 /* WCTDinnerFactory.m */,
+			);
+			path = "抽象工厂类";
+			sourceTree = "<group>";
+		};
+		04929FD92573A459001EB606 /* 产品类 */ = {
+			isa = PBXGroup;
+			children = (
+				04929FDF2573A459001EB606 /* 抽象产品类 */,
+				04929FDA2573A459001EB606 /* 具体产品类 */,
+			);
+			path = "产品类";
+			sourceTree = "<group>";
+		};
+		04929FDA2573A459001EB606 /* 具体产品类 */ = {
+			isa = PBXGroup;
+			children = (
+				04929FFD2573A5AC001EB606 /* WCTDinnerFoodPizza.h */,
+				04929FFE2573A5AC001EB606 /* WCTDinnerFoodPizza.m */,
+				0492A0032573A5BB001EB606 /* WCTDinnerFoodHotpot.h */,
+				0492A0042573A5BB001EB606 /* WCTDinnerFoodHotpot.m */,
+			);
+			path = "具体产品类";
+			sourceTree = "<group>";
+		};
+		04929FDF2573A459001EB606 /* 抽象产品类 */ = {
+			isa = PBXGroup;
+			children = (
+				04929FE02573A459001EB606 /* WCTDinnerFood.h */,
+				04929FE12573A459001EB606 /* WCTDinnerFood.m */,
+			);
+			path = "抽象产品类";
+			sourceTree = "<group>";
+		};
+		0492A0242573A94A001EB606 /* 产品类2 */ = {
+			isa = PBXGroup;
+			children = (
+				0492A02A2573AD33001EB606 /* 抽象产品类 */,
+				0492A0252573AD33001EB606 /* 具体产品类 */,
+			);
+			path = "产品类2";
+			sourceTree = "<group>";
+		};
+		0492A0252573AD33001EB606 /* 具体产品类 */ = {
+			isa = PBXGroup;
+			children = (
+				0492A0482573AF09001EB606 /* WCTGuestWCT.h */,
+				0492A0492573AF09001EB606 /* WCTGuestWCT.m */,
+				0492A04E2573AF17001EB606 /* WCTGuestLJ.h */,
+				0492A04F2573AF17001EB606 /* WCTGuestLJ.m */,
+			);
+			path = "具体产品类";
+			sourceTree = "<group>";
+		};
+		0492A02A2573AD33001EB606 /* 抽象产品类 */ = {
+			isa = PBXGroup;
+			children = (
+				0492A0422573AEC2001EB606 /* WCTGuest.h */,
+				0492A0432573AEC2001EB606 /* WCTGuest.m */,
+			);
+			path = "抽象产品类";
 			sourceTree = "<group>";
 		};
 		04CF30A32573853E00888CEC = {
@@ -241,6 +357,10 @@
 			isa = PBXGroup;
 			children = (
 				04CF30F4257385FE00888CEC /* README3.md */,
+				04929FC82573A37C001EB606 /* 抽象工厂.png */,
+				04929FD02573A459001EB606 /* 工厂类 */,
+				04929FD92573A459001EB606 /* 产品类 */,
+				0492A0242573A94A001EB606 /* 产品类2 */,
 			);
 			path = "抽象工厂模式";
 			sourceTree = "<group>";
@@ -391,6 +511,7 @@
 				04CF30BF2573854000888CEC /* LaunchScreen.storyboard in Resources */,
 				04CF30BC2573854000888CEC /* Assets.xcassets in Resources */,
 				04CF30BA2573853E00888CEC /* Main.storyboard in Resources */,
+				04929FC92573A37C001EB606 /* 抽象工厂.png in Resources */,
 				0415715F2573918A0035DC98 /* 工厂模式再扩展一种产品.png in Resources */,
 				04CF30F0257385F500888CEC /* 工厂模式read.md in Resources */,
 				04CF30FA2573866700888CEC /* 简单工厂模式类图.png in Resources */,
@@ -418,17 +539,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0492A0442573AEC2001EB606 /* WCTGuest.m in Sources */,
+				04929FFF2573A5AC001EB606 /* WCTDinnerFoodPizza.m in Sources */,
+				04929FE72573A45A001EB606 /* WCTDinnerFood.m in Sources */,
 				0415716B257397480035DC98 /* WCTNoonFood.m in Sources */,
+				0492A04A2573AF09001EB606 /* WCTGuestWCT.m in Sources */,
 				04CF30B72573853E00888CEC /* ViewController.m in Sources */,
 				04CF310C257389EB00888CEC /* WCTMorningFoodBaoZi.m in Sources */,
 				0415718C257399520035DC98 /* WCTNoonFoodFishCook.m in Sources */,
 				04CF30B12573853E00888CEC /* AppDelegate.m in Sources */,
 				0415717A257398070035DC98 /* WCTNoonFoodFish.m in Sources */,
+				0492A0202573A6F3001EB606 /* WCTDinnerFoodHotpotCook.m in Sources */,
 				04CF30C22573854000888CEC /* main.m in Sources */,
 				04CF311225738A0B00888CEC /* WCTMorningFoodDouJiang.m in Sources */,
 				04157186257398870035DC98 /* WCTNoonFactory.m in Sources */,
 				04CF3106257388FD00888CEC /* WCTMorningFood.m in Sources */,
+				0492A0172573A6E2001EB606 /* WCTDinnerFoodPizzaCook.m in Sources */,
 				04157180257398240035DC98 /* WCTNoonFoodShrimp.m in Sources */,
+				04929FED2573A492001EB606 /* WCTDinnerFactory.m in Sources */,
+				0492A0502573AF17001EB606 /* WCTGuestLJ.m in Sources */,
+				0492A0052573A5BB001EB606 /* WCTDinnerFoodHotpot.m in Sources */,
 				04CF3100257388D700888CEC /* WCTMorningFactory.m in Sources */,
 				04CF30B42573853E00888CEC /* SceneDelegate.m in Sources */,
 				041571922573996E0035DC98 /* WCTNoonFoodShrimpCook.m in Sources */,

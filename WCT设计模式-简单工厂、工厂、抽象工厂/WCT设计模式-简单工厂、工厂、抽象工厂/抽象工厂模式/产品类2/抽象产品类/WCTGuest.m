@@ -1,17 +1,16 @@
 //
-//  WCTNoonFood.m
+//  WCTGuest.m
 //  WCT设计模式-简单工厂、工厂、抽象工厂
 //
 //  Created by wct on 2020/11/29.
 //
 
-#import "WCTNoonFood.h"
+#import "WCTGuest.h"
 
-@implementation WCTNoonFood
+@implementation WCTGuest
 
-- (void)payForSomething {
-    
+- (void)eatSomething {
+
 }
-
 
 @end
