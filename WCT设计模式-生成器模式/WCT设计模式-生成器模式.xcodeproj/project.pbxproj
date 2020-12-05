@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0473B239257BC6470032E6B5 /* 生成器模式使用场景.docx in Resources */ = {isa = PBXBuildFile; fileRef = 0473B238257BC6470032E6B5 /* 生成器模式使用场景.docx */; };
 		047E71CF257B9677001B8DD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E71CE257B9677001B8DD1 /* AppDelegate.m */; };
 		047E71D2257B9678001B8DD1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E71D1257B9678001B8DD1 /* SceneDelegate.m */; };
 		047E71D5257B9678001B8DD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E71D4257B9678001B8DD1 /* ViewController.m */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0473B238257BC6470032E6B5 /* 生成器模式使用场景.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "生成器模式使用场景.docx"; sourceTree = "<group>"; };
 		047E71CA257B9677001B8DD1 /* WCT设计模式-生成器模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WCT设计模式-生成器模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047E71CD257B9677001B8DD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		047E71CE257B9677001B8DD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				047E71D1257B9678001B8DD1 /* SceneDelegate.m */,
 				047E71D3257B9678001B8DD1 /* ViewController.h */,
 				047E71D4257B9678001B8DD1 /* ViewController.m */,
+				0473B238257BC6470032E6B5 /* 生成器模式使用场景.docx */,
 				047E722A257B9AFA001B8DD1 /* 生成器 */,
 				047E7215257B970D001B8DD1 /* 产品 */,
 				047E7216257B9716001B8DD1 /* 属性 */,
@@ -297,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				047E71DD257B9679001B8DD1 /* LaunchScreen.storyboard in Resources */,
+				0473B239257BC6470032E6B5 /* 生成器模式使用场景.docx in Resources */,
 				047E71DA257B9679001B8DD1 /* Assets.xcassets in Resources */,
 				047E71D8257B9678001B8DD1 /* Main.storyboard in Resources */,
 			);
