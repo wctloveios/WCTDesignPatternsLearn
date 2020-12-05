@@ -33,7 +33,7 @@
     float newNum = [cny getCNYWithUSD];
     NSLog(@"中国业务是打印人民币：%f",newNum);
     /*
-     类适配器：就是通过集成 + 新的适配业务，通过替换新的类名去适配新的业务
+     类适配器：就是通过 ”继承目标类“ + ”组合“ 的方式适配新业务，通过替换新的类名去适配新的业务
      */
     
     
@@ -47,6 +47,9 @@
     ObjectAdapter *newAdapter = [[ObjectAdapter alloc] initWithAdapter:[AdapterFooterball new]];
     NSString *newPE = [newAdapter goBasketball];
     NSLog(@"现在的体育课：%@",newPE);
+    /*
+     对象适配器：就是通过 ”继承目标类“ + ”组合“ 的方式适配新业务，通过替换新的类名去适配新的业务
+     */
 }
 
 

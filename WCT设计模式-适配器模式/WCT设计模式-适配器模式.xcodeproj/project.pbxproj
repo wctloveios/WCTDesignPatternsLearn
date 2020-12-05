@@ -20,6 +20,9 @@
 		04598376257BB7490091C3A3 /* AdapterCNY.m in Sources */ = {isa = PBXBuildFile; fileRef = 04598375257BB7490091C3A3 /* AdapterCNY.m */; };
 		0459838C257BB94E0091C3A3 /* AdapterFooterball.m in Sources */ = {isa = PBXBuildFile; fileRef = 0459838B257BB94E0091C3A3 /* AdapterFooterball.m */; };
 		04598393257BB9AB0091C3A3 /* ObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04598392257BB9AB0091C3A3 /* ObjectAdapter.m */; };
+		0473B21E257BC27B0032E6B5 /* 类适配器.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0473B21C257BC27B0032E6B5 /* 类适配器.jpg */; };
+		0473B21F257BC27B0032E6B5 /* 对象适配器.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0473B21D257BC27B0032E6B5 /* 对象适配器.jpg */; };
+		0473B224257BC2A20032E6B5 /* 对象适配器&类适配器.md in Resources */ = {isa = PBXBuildFile; fileRef = 0473B223257BC2A20032E6B5 /* 对象适配器&类适配器.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,9 @@
 		04598391257BB9AB0091C3A3 /* ObjectAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectAdapter.h; sourceTree = "<group>"; };
 		04598392257BB9AB0091C3A3 /* ObjectAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectAdapter.m; sourceTree = "<group>"; };
 		0459839B257BB9E30091C3A3 /* TargetBasketballProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetBasketballProtocol.h; sourceTree = "<group>"; };
+		0473B21C257BC27B0032E6B5 /* 类适配器.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "类适配器.jpg"; sourceTree = "<group>"; };
+		0473B21D257BC27B0032E6B5 /* 对象适配器.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "对象适配器.jpg"; sourceTree = "<group>"; };
+		0473B223257BC2A20032E6B5 /* 对象适配器&类适配器.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "对象适配器&类适配器.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +130,7 @@
 				04598331257BB5A20091C3A3 /* SceneDelegate.m */,
 				04598333257BB5A20091C3A3 /* ViewController.h */,
 				04598334257BB5A20091C3A3 /* ViewController.m */,
+				0473B223257BC2A20032E6B5 /* 对象适配器&类适配器.md */,
 				04598366257BB5BD0091C3A3 /* 对象适配器 */,
 				04598365257BB5AF0091C3A3 /* 类适配器 */,
 				04598336257BB5A20091C3A3 /* Main.storyboard */,
@@ -156,6 +163,7 @@
 		04598365257BB5AF0091C3A3 /* 类适配器 */ = {
 			isa = PBXGroup;
 			children = (
+				0473B21C257BC27B0032E6B5 /* 类适配器.jpg */,
 				04598373257BB71D0091C3A3 /* 继承被适配的类的新类 */,
 				04598371257BB6E70091C3A3 /* 适配协议 */,
 				04598370257BB6D60091C3A3 /* 需要被适配的类 */,
@@ -166,6 +174,7 @@
 		04598366257BB5BD0091C3A3 /* 对象适配器 */ = {
 			isa = PBXGroup;
 			children = (
+				0473B21D257BC27B0032E6B5 /* 对象适配器.jpg */,
 				04598390257BB9870091C3A3 /* 对象适配器的类 */,
 				0459839A257BB9AE0091C3A3 /* 适配协议 */,
 				0459837D257BB8F70091C3A3 /* 需要被适配的类 */,
@@ -328,8 +337,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0459833D257BB5A30091C3A3 /* LaunchScreen.storyboard in Resources */,
+				0473B21E257BC27B0032E6B5 /* 类适配器.jpg in Resources */,
+				0473B224257BC2A20032E6B5 /* 对象适配器&类适配器.md in Resources */,
 				0459833A257BB5A30091C3A3 /* Assets.xcassets in Resources */,
 				04598338257BB5A20091C3A3 /* Main.storyboard in Resources */,
+				0473B21F257BC27B0032E6B5 /* 对象适配器.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
