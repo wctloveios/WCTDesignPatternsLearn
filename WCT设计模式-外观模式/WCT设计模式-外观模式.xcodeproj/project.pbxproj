@@ -16,6 +16,7 @@
 		046EA77D25810A5D0098C341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA77C25810A5D0098C341 /* main.m */; };
 		046EA78725810A5D0098C341 /* WCT_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA78625810A5D0098C341 /* WCT_________Tests.m */; };
 		046EA79225810A5D0098C341 /* WCT_________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA79125810A5D0098C341 /* WCT_________UITests.m */; };
+		046EA80525810FFA0098C341 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA80425810FFA0098C341 /* Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		046EA78D25810A5D0098C341 /* WCT设计模式-外观模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WCT设计模式-外观模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		046EA79125810A5D0098C341 /* WCT_________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WCT_________UITests.m"; sourceTree = "<group>"; };
 		046EA79325810A5D0098C341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046EA80325810FFA0098C341 /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		046EA80425810FFA0098C341 /* Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 				046EA76E25810A5A0098C341 /* SceneDelegate.m */,
 				046EA77025810A5A0098C341 /* ViewController.h */,
 				046EA77125810A5A0098C341 /* ViewController.m */,
+				046EA7FF25810FDC0098C341 /* 外观模式 */,
 				046EA77325810A5A0098C341 /* Main.storyboard */,
 				046EA77625810A5D0098C341 /* Assets.xcassets */,
 				046EA77825810A5D0098C341 /* LaunchScreen.storyboard */,
@@ -135,6 +139,15 @@
 				046EA79325810A5D0098C341 /* Info.plist */,
 			);
 			path = "WCT设计模式-外观模式UITests";
+			sourceTree = "<group>";
+		};
+		046EA7FF25810FDC0098C341 /* 外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				046EA80325810FFA0098C341 /* Tool.h */,
+				046EA80425810FFA0098C341 /* Tool.m */,
+			);
+			path = "外观模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046EA80525810FFA0098C341 /* Tool.m in Sources */,
 				046EA77225810A5A0098C341 /* ViewController.m in Sources */,
 				046EA76C25810A5A0098C341 /* AppDelegate.m in Sources */,
 				046EA77D25810A5D0098C341 /* main.m in Sources */,
