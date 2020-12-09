@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046EA7B325810B7A0098C341 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA7B225810B7A0098C341 /* AppDelegate.m */; };
+		046EA7B625810B7A0098C341 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA7B525810B7A0098C341 /* SceneDelegate.m */; };
+		046EA7B925810B7A0098C341 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA7B825810B7A0098C341 /* ViewController.m */; };
+		046EA7BC25810B7A0098C341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046EA7BA25810B7A0098C341 /* Main.storyboard */; };
+		046EA7BE25810B7D0098C341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046EA7BD25810B7D0098C341 /* Assets.xcassets */; };
+		046EA7C125810B7D0098C341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046EA7BF25810B7D0098C341 /* LaunchScreen.storyboard */; };
+		046EA7C425810B7D0098C341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA7C325810B7D0098C341 /* main.m */; };
+		046EA7CE25810B7E0098C341 /* WCT__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA7CD25810B7E0098C341 /* WCT__________Tests.m */; };
+		046EA7D925810B7E0098C341 /* WCT__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA7D825810B7E0098C341 /* WCT__________UITests.m */; };
+		046EA7EC25810BA50098C341 /* WCTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA7EB25810BA50098C341 /* WCTView.m */; };
+		046EA7F525810BB00098C341 /* WCTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA7F425810BB00098C341 /* WCTModel.m */; };
+		046EA7FB25810BBF0098C341 /* WCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA7FA25810BBF0098C341 /* WCTViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046EA7CA25810B7E0098C341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046EA7A625810B7A0098C341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046EA7AD25810B7A0098C341;
+			remoteInfo = "WCT设计模式-中介者模式";
+		};
+		046EA7D525810B7E0098C341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046EA7A625810B7A0098C341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046EA7AD25810B7A0098C341;
+			remoteInfo = "WCT设计模式-中介者模式";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046EA7AE25810B7A0098C341 /* WCT设计模式-中介者模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WCT设计模式-中介者模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046EA7B125810B7A0098C341 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		046EA7B225810B7A0098C341 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046EA7B425810B7A0098C341 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		046EA7B525810B7A0098C341 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		046EA7B725810B7A0098C341 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		046EA7B825810B7A0098C341 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		046EA7BB25810B7A0098C341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046EA7BD25810B7D0098C341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046EA7C025810B7D0098C341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046EA7C225810B7D0098C341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046EA7C325810B7D0098C341 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		046EA7C925810B7E0098C341 /* WCT设计模式-中介者模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WCT设计模式-中介者模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046EA7CD25810B7E0098C341 /* WCT__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WCT__________Tests.m"; sourceTree = "<group>"; };
+		046EA7CF25810B7E0098C341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046EA7D425810B7E0098C341 /* WCT设计模式-中介者模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WCT设计模式-中介者模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046EA7D825810B7E0098C341 /* WCT__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WCT__________UITests.m"; sourceTree = "<group>"; };
+		046EA7DA25810B7E0098C341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046EA7EA25810BA50098C341 /* WCTView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTView.h; sourceTree = "<group>"; };
+		046EA7EB25810BA50098C341 /* WCTView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTView.m; sourceTree = "<group>"; };
+		046EA7F325810BB00098C341 /* WCTModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTModel.h; sourceTree = "<group>"; };
+		046EA7F425810BB00098C341 /* WCTModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTModel.m; sourceTree = "<group>"; };
+		046EA7F925810BBF0098C341 /* WCTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTViewController.h; sourceTree = "<group>"; };
+		046EA7FA25810BBF0098C341 /* WCTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCTViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046EA7AB25810B7A0098C341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046EA7C625810B7E0098C341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046EA7D125810B7E0098C341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046EA7A525810B7A0098C341 = {
+			isa = PBXGroup;
+			children = (
+				046EA7B025810B7A0098C341 /* WCT设计模式-中介者模式 */,
+				046EA7CC25810B7E0098C341 /* WCT设计模式-中介者模式Tests */,
+				046EA7D725810B7E0098C341 /* WCT设计模式-中介者模式UITests */,
+				046EA7AF25810B7A0098C341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046EA7AF25810B7A0098C341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046EA7AE25810B7A0098C341 /* WCT设计模式-中介者模式.app */,
+				046EA7C925810B7E0098C341 /* WCT设计模式-中介者模式Tests.xctest */,
+				046EA7D425810B7E0098C341 /* WCT设计模式-中介者模式UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046EA7B025810B7A0098C341 /* WCT设计模式-中介者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				046EA7B125810B7A0098C341 /* AppDelegate.h */,
+				046EA7B225810B7A0098C341 /* AppDelegate.m */,
+				046EA7B425810B7A0098C341 /* SceneDelegate.h */,
+				046EA7B525810B7A0098C341 /* SceneDelegate.m */,
+				046EA7B725810B7A0098C341 /* ViewController.h */,
+				046EA7B825810B7A0098C341 /* ViewController.m */,
+				046EA7E925810B850098C341 /* MVC介绍中介者 */,
+				046EA7BA25810B7A0098C341 /* Main.storyboard */,
+				046EA7BD25810B7D0098C341 /* Assets.xcassets */,
+				046EA7BF25810B7D0098C341 /* LaunchScreen.storyboard */,
+				046EA7C225810B7D0098C341 /* Info.plist */,
+				046EA7C325810B7D0098C341 /* main.m */,
+			);
+			path = "WCT设计模式-中介者模式";
+			sourceTree = "<group>";
+		};
+		046EA7CC25810B7E0098C341 /* WCT设计模式-中介者模式Tests */ = {
+			isa = PBXGroup;
+			children = (
+				046EA7CD25810B7E0098C341 /* WCT__________Tests.m */,
+				046EA7CF25810B7E0098C341 /* Info.plist */,
+			);
+			path = "WCT设计模式-中介者模式Tests";
+			sourceTree = "<group>";
+		};
+		046EA7D725810B7E0098C341 /* WCT设计模式-中介者模式UITests */ = {
+			isa = PBXGroup;
+			children = (
+				046EA7D825810B7E0098C341 /* WCT__________UITests.m */,
+				046EA7DA25810B7E0098C341 /* Info.plist */,
+			);
+			path = "WCT设计模式-中介者模式UITests";
+			sourceTree = "<group>";
+		};
+		046EA7E925810B850098C341 /* MVC介绍中介者 */ = {
+			isa = PBXGroup;
+			children = (
+				046EA7EA25810BA50098C341 /* WCTView.h */,
+				046EA7EB25810BA50098C341 /* WCTView.m */,
+				046EA7F325810BB00098C341 /* WCTModel.h */,
+				046EA7F425810BB00098C341 /* WCTModel.m */,
+				046EA7F925810BBF0098C341 /* WCTViewController.h */,
+				046EA7FA25810BBF0098C341 /* WCTViewController.m */,
+			);
+			path = "MVC介绍中介者";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046EA7AD25810B7A0098C341 /* WCT设计模式-中介者模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046EA7DD25810B7E0098C341 /* Build configuration list for PBXNativeTarget "WCT设计模式-中介者模式" */;
+			buildPhases = (
+				046EA7AA25810B7A0098C341 /* Sources */,
+				046EA7AB25810B7A0098C341 /* Frameworks */,
+				046EA7AC25810B7A0098C341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WCT设计模式-中介者模式";
+			productName = "WCT设计模式-中介者模式";
+			productReference = 046EA7AE25810B7A0098C341 /* WCT设计模式-中介者模式.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046EA7C825810B7E0098C341 /* WCT设计模式-中介者模式Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046EA7E025810B7E0098C341 /* Build configuration list for PBXNativeTarget "WCT设计模式-中介者模式Tests" */;
+			buildPhases = (
+				046EA7C525810B7E0098C341 /* Sources */,
+				046EA7C625810B7E0098C341 /* Frameworks */,
+				046EA7C725810B7E0098C341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046EA7CB25810B7E0098C341 /* PBXTargetDependency */,
+			);
+			name = "WCT设计模式-中介者模式Tests";
+			productName = "WCT设计模式-中介者模式Tests";
+			productReference = 046EA7C925810B7E0098C341 /* WCT设计模式-中介者模式Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046EA7D325810B7E0098C341 /* WCT设计模式-中介者模式UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046EA7E325810B7E0098C341 /* Build configuration list for PBXNativeTarget "WCT设计模式-中介者模式UITests" */;
+			buildPhases = (
+				046EA7D025810B7E0098C341 /* Sources */,
+				046EA7D125810B7E0098C341 /* Frameworks */,
+				046EA7D225810B7E0098C341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046EA7D625810B7E0098C341 /* PBXTargetDependency */,
+			);
+			name = "WCT设计模式-中介者模式UITests";
+			productName = "WCT设计模式-中介者模式UITests";
+			productReference = 046EA7D425810B7E0098C341 /* WCT设计模式-中介者模式UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046EA7A625810B7A0098C341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					046EA7AD25810B7A0098C341 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					046EA7C825810B7E0098C341 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 046EA7AD25810B7A0098C341;
+					};
+					046EA7D325810B7E0098C341 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 046EA7AD25810B7A0098C341;
+					};
+				};
+			};
+			buildConfigurationList = 046EA7A925810B7A0098C341 /* Build configuration list for PBXProject "WCT设计模式-中介者模式" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046EA7A525810B7A0098C341;
+			productRefGroup = 046EA7AF25810B7A0098C341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046EA7AD25810B7A0098C341 /* WCT设计模式-中介者模式 */,
+				046EA7C825810B7E0098C341 /* WCT设计模式-中介者模式Tests */,
+				046EA7D325810B7E0098C341 /* WCT设计模式-中介者模式UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046EA7AC25810B7A0098C341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046EA7C125810B7D0098C341 /* LaunchScreen.storyboard in Resources */,
+				046EA7BE25810B7D0098C341 /* Assets.xcassets in Resources */,
+				046EA7BC25810B7A0098C341 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046EA7C725810B7E0098C341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046EA7D225810B7E0098C341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046EA7AA25810B7A0098C341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046EA7B925810B7A0098C341 /* ViewController.m in Sources */,
+				046EA7B325810B7A0098C341 /* AppDelegate.m in Sources */,
+				046EA7F525810BB00098C341 /* WCTModel.m in Sources */,
+				046EA7C425810B7D0098C341 /* main.m in Sources */,
+				046EA7FB25810BBF0098C341 /* WCTViewController.m in Sources */,
+				046EA7EC25810BA50098C341 /* WCTView.m in Sources */,
+				046EA7B625810B7A0098C341 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046EA7C525810B7E0098C341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046EA7CE25810B7E0098C341 /* WCT__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046EA7D025810B7E0098C341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046EA7D925810B7E0098C341 /* WCT__________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046EA7CB25810B7E0098C341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046EA7AD25810B7A0098C341 /* WCT设计模式-中介者模式 */;
+			targetProxy = 046EA7CA25810B7E0098C341 /* PBXContainerItemProxy */;
+		};
+		046EA7D625810B7E0098C341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046EA7AD25810B7A0098C341 /* WCT设计模式-中介者模式 */;
+			targetProxy = 046EA7D525810B7E0098C341 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046EA7BA25810B7A0098C341 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046EA7BB25810B7A0098C341 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046EA7BF25810B7D0098C341 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046EA7C025810B7D0098C341 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046EA7DB25810B7E0098C341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046EA7DC25810B7E0098C341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046EA7DE25810B7E0098C341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVTLVSMJ6Q;
+				INFOPLIST_FILE = "WCT设计模式-中介者模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wctloveios-163.com.WCT----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046EA7DF25810B7E0098C341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVTLVSMJ6Q;
+				INFOPLIST_FILE = "WCT设计模式-中介者模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wctloveios-163.com.WCT----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		046EA7E125810B7E0098C341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVTLVSMJ6Q;
+				INFOPLIST_FILE = "WCT设计模式-中介者模式Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wctloveios-163.com.WCT----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCT设计模式-中介者模式.app/WCT设计模式-中介者模式";
+			};
+			name = Debug;
+		};
+		046EA7E225810B7E0098C341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVTLVSMJ6Q;
+				INFOPLIST_FILE = "WCT设计模式-中介者模式Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wctloveios-163.com.WCT----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCT设计模式-中介者模式.app/WCT设计模式-中介者模式";
+			};
+			name = Release;
+		};
+		046EA7E425810B7E0098C341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVTLVSMJ6Q;
+				INFOPLIST_FILE = "WCT设计模式-中介者模式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wctloveios-163.com.WCT----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WCT设计模式-中介者模式";
+			};
+			name = Debug;
+		};
+		046EA7E525810B7E0098C341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVTLVSMJ6Q;
+				INFOPLIST_FILE = "WCT设计模式-中介者模式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wctloveios-163.com.WCT----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WCT设计模式-中介者模式";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046EA7A925810B7A0098C341 /* Build configuration list for PBXProject "WCT设计模式-中介者模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046EA7DB25810B7E0098C341 /* Debug */,
+				046EA7DC25810B7E0098C341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046EA7DD25810B7E0098C341 /* Build configuration list for PBXNativeTarget "WCT设计模式-中介者模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046EA7DE25810B7E0098C341 /* Debug */,
+				046EA7DF25810B7E0098C341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046EA7E025810B7E0098C341 /* Build configuration list for PBXNativeTarget "WCT设计模式-中介者模式Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046EA7E125810B7E0098C341 /* Debug */,
+				046EA7E225810B7E0098C341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046EA7E325810B7E0098C341 /* Build configuration list for PBXNativeTarget "WCT设计模式-中介者模式UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046EA7E425810B7E0098C341 /* Debug */,
+				046EA7E525810B7E0098C341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046EA7A625810B7A0098C341 /* Project object */;
+}
